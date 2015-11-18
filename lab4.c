@@ -389,7 +389,7 @@ void display()
   
   modelM = mat_stack.top();  mat_stack.pop(); 
 
-  modelM = glm::translate(modelM, glm::vec3(1.0f, 0.0f, 0.0f));
+  modelM = glm::translate(modelM, glm::vec3(1.0f, 0.0f, 3.0f));
   modelM = glm::rotate(modelM, glm::radians(angle2), glm::vec3(0.0f, 0.0f, 1.0f));
   modelM = glm::translate(modelM, glm::vec3(1.0f, 0.0f, 0.0f));  
   
